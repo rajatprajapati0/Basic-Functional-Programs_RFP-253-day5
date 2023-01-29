@@ -1,6 +1,7 @@
 ﻿using System;
 
 
+
 namespace Basic_Programs
 {
     internal class Flip_coin
@@ -10,7 +11,7 @@ namespace Basic_Programs
             Console.WriteLine("enter even no. how many times you want tos ");
             int tosCount = int.Parse(Console.ReadLine());
 
-            Random rnd = new Random();
+            Random rnd= new Random();
             int headcount = 0;
             int tailcount = 0;
             if (tosCount % 2 == 0)
@@ -50,9 +51,9 @@ namespace Basic_Programs
 
                 }
             }
-            else if (tosCount>20)
+            else if (tosCount > 20)
             {
-                Console.WriteLine("you can enter only maximum 20");           
+                Console.WriteLine("you can enter only maximum 20");
             }
             else
             {
